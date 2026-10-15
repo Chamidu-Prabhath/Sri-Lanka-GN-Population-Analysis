@@ -1,0 +1,57 @@
+# Sri Lanka GN Division Population Analysis and Machine Learning
+
+## Project Overview
+This project analyzes Sri Lanka's 2024 Grama Niladhari (GN) Division population data. It explores population distributions, performs statistical hypothesis testing, and develops machine learning regression models to predict the population aged 65 and above.
+
+## Objectives
+- Clean and preprocess population data.
+- Explore population patterns across provinces and districts.
+- Compare male and female population counts using a paired t-test.
+- Compare mean GN Division populations across provinces using one-way ANOVA.
+- Build and evaluate Linear Regression and Random Forest Regression models.
+
+## Tools and Technologies
+- Python
+- Jupyter Notebook
+- Pandas and NumPy
+- Matplotlib and Seaborn
+- SciPy
+- Scikit-learn
+
+## Project Workflow
+1. Data loading and inspection
+2. Data cleaning and validation
+3. Exploratory Data Analysis (EDA)
+4. Hypothesis testing
+5. Feature selection and preprocessing
+6. Train-test splitting
+7. Regression model development
+8. Model evaluation and comparison
+
+## Machine Learning
+**Target variable:** `Age_65_Plus`
+
+**Selected features:**
+- `Province_Code`
+- `District_Code`
+- `DS_Division_Code`
+- `GN_Division_Code`
+- `Age_0_14`
+- `Age_15_59`
+- `Age_60_64`
+
+Models:
+- Linear Regression
+- Random Forest Regression
+
+Evaluation metrics:
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+## Data Source
+Department of Census and Statistics, Sri Lanka — Census of Population and Housing 2024.
+
+## Disclaimer
+This project was developed for educational and portfolio purposes. Refer to the original data source for official population statistics.
